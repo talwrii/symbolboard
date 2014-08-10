@@ -1,0 +1,65 @@
+! Put the mode switch modifier on capslock and quote
+! More symbols (discover that I can have modifiers modify modifier keys :)) 
+clear lock
+clear mod5
+keycode 66 = Mode_switch plus parenleft
+add mod3 = Mode_switch
+keycode  48 = Mode_switch minus parenright
+
+! emacs/bash type bindings
+keycode  44 = j J Return J dead_hook dead_horn dead_hook
+keycode  43 = h H BackSpace H hstroke Hstroke hstroke Hstroke
+keycode  40 = d D Delete D eth ETH eth ETH
+keycode  26 = e E End E e E e E
+keycode  38 = a A Home A ae AE ae AE
+keycode  42 = g G Escape G eng ENG eng ENG
+
+! Vi-like motion bindings
+keycode  30 = u U Left U downarrow uparrow downarrow uparrow u U downarrow uparrow
+keycode  31 = i I Up I rightarrow idotless rightarrow
+keycode  32 = o O Down O oslash Oslash oslash Oslash o O oslash Oslash
+keycode  33 = p P Right P thorn THORN thorn THORN p P thorn THORN
+
+! Numbers
+keycode  52 = z Z 1 Z guillemotleft less guillemotleft less z Z guillemotleft less z Z guillemotleft less
+keycode  53 = x X 2 X guillemotright greater guillemotright greater x X guillemotright greater x X guillemotright greater
+keycode  54 = c C 3 C cent copyright cent
+keycode  55 = v V 4 V leftdoublequotemark leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
+keycode  56 = b B 5 B rightdoublequotemark rightsinglequotemark rightdoublequotemark
+keycode  57 = n N 6 N n N n N n N n N n N n N
+keycode  58 = m M 7 M mu masculine mu masculine m M mu masculine m M mu masculine
+keycode  59 = comma less 8 less horizconnector multiply horizconnector multiply comma less horizconnector multiply comma less horizconnector multiply
+keycode  60 = period greater 9 greater periodcentered division periodcentered division period greater periodcentered division period greater periodcentered division
+keycode  61 = slash question 0 question dead_belowdot dead_abovedot dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot
+
+! Other symbols 
+keycode  24 = q Q equal Q at Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
+keycode  25 = w W underscore W lstroke Lstroke lstroke Lstroke w W lstroke Lstroke
+keycode  27 = r R exclam R paragraph registered paragraph registered r R paragraph registered
+keycode  28 = t T at T tslash Tslash tslash Tslash t T tslash Tslash
+keycode  29 = y Y asterisk Y leftarrow yen leftarrow yen y Y leftarrow yen
+keycode  39 = s S asciitilde S ssharp section ssharp section s S ssharp section s S ssharp section
+keycode  46 = l L numbersign L lstroke Lstroke lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
+keycode  45 = k K dollar K kra ampersand kra ampersand k K kra ampersand k K kra ampersand
+keycode  47 = semicolon colon Tab colon dead_acute dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
+
+!
+!! discover that modifiers can modify modifier keys
+keycode  41 = f F bar F dstroke ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine 
+! Parentheses etc
+keycode  50 = Shift_L backslash braceleft NoSymbol Shift_L Shift_L
+keycode  62 = Shift_R percent braceright NoSymbol Shift_R Shift_R
+
+! this shadows on my keyboard (this could be a big problem for this approach)
+!keycode  23 = Control_L quotedbl bracketleft ISO_Left_Tab
+!keycode  34 = Control_R ampersand bracketright asciitilde dead_grave dead_breve dead_grave 
+
+keycode 23 = Menu ampersand apostrophe
+keycode  34 = bracketleft bracketright asciicircum 
+
+! Rebind the control key
+add control = Control_L Control_R
+! Page up and page down
+keycode  65 = space apostrophe quotedbl quotedbl space space
+keycode  64 = Alt_L percent Alt_L grave Alt_L Meta_L Alt_L Meta_L
+keycode  108 = Alt_L grave ISO_Level3_Shift NoSymbol ISO_Level3_Shift ISO_Level3_Shift
