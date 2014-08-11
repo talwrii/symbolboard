@@ -19,6 +19,12 @@ press, but how to do this, there are only so any keys that can be close
 to one's fingers. One way to do this, is to add another modifier key
  (like shift) and use this for symbol characters.
 
+# Quickstart
+
+1. Prepare a command to reset your keyboard (setxkbmap us) :)
+1. xmodmap symbols.xmodmap
+1. Add this to your xprofile file or similar
+
 # Features (Caveats avoided)
 
 Motions and other keys (home, end, baskspace, enter) are similar to bash / emacs
