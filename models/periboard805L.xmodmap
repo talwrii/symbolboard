@@ -1,0 +1,34 @@
+
+! The periboard 805 is quite a cute folding bluetooth keyboard with a nice feel to it
+! It was a couple of nasty short comings to it, lack of mirrored modifiers, shrunken keys,
+! and worst of all ofset numbers.
+
+! This mapping presses some other keys into services as more reacheable or mirror 
+! modifiers, while simply disabling all the numbers as weirdly enoughed positioned
+! that you don't want to get into the habit of pressing them
+
+
+
+keycode 111 = Shift_L
+! down and left are both control (since they are where the control key should be)
+keycode 114 = Control_L
+keycode 116 = Control_L
+! delete is turned into a super key
+keycode 119 = Super_L
+! unmap the numbers (since they are offset on the left hand)
+keycode 10 = 
+keycode 11 = 
+keycode 12 = 
+keycode 13 = 
+keycode 14 = 
+keycode 15 = 
+keycode 16 = 
+keycode 17 = 
+keycode 18 = 
+keycode 19 = 
+! unmap escape (since it's in the wrong place)
+keycode 9 = 
+
+! remap modifiers
+add control = Control_L
+add shift = Shift_L
