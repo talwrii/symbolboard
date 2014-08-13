@@ -1,32 +1,23 @@
-keycode   9 = NoSymbol
-keycode  10 = NoSymbol
-keycode  11 = NoSymbol
-keycode  12 = NoSymbol
-keycode  13 = NoSymbol
-keycode  14 = NoSymbol
-keycode  15 = NoSymbol
-keycode  16 = NoSymbol
-keycode  17 = NoSymbol
-keycode  18 = NoSymbol
-keycode  19 = NoSymbol
-keycode  20 = NoSymbol
-keycode  21 = NoSymbol
-keycode  22 = NoSymbol
-keycode  35 = NoSymbol
-keycode  36 = NoSymbol
-keycode  47 = NoSymbol
-keycode  49 = NoSymbol
-keycode  51 = NoSymbol
-keycode  93 = NoSymbol
-keycode  97 = NoSymbol
-keycode 110 = NoSymbol
-keycode 111 = NoSymbol
-keycode 112 = NoSymbol
-keycode 113 = NoSymbol
-keycode 114 = NoSymbol
-keycode 115 = NoSymbol
-keycode 116 = NoSymbol
-keycode 117 = NoSymbol
-keycode 118 = NoSymbol
-keycode 119 = NoSymbol
-keycode 120 = NoSymbol
+! carriage return
+! keycode 36 =
+
+! backspace
+keycode 22 =
+
+!!!!!!!!!!!!!!!!!!
+! arrow keys
+
+! Up
+! keycode 111 = 
+
+! Down
+! keycode 116 = 
+
+! Left
+! keycode 113 = 
+
+! Right 
+! keycode 114 = 
+
+
+
