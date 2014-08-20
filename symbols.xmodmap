@@ -4,7 +4,7 @@ clear lock
 clear mod5
 keycode 66 = Mode_switch plus parenleft
 add mod3 = Mode_switch
-keycode  48 = Mode_switch minus parenright
+keycode  48 = Mode_switch dollar parenright
 
 ! emacs/bash type bindings
 keycode  44 = j J Return J dead_hook dead_horn dead_hook
@@ -38,9 +38,9 @@ keycode  25 = w W underscore W lstroke Lstroke lstroke Lstroke w W lstroke Lstro
 keycode  27 = r R exclam R paragraph registered paragraph registered r R paragraph registered
 keycode  28 = t T at T tslash Tslash tslash Tslash t T tslash Tslash
 keycode  29 = y Y asterisk Y leftarrow yen leftarrow yen y Y leftarrow yen
-keycode  39 = s S asciitilde S ssharp section ssharp section s S ssharp section s S ssharp section
+keycode  39 = s S slash S ssharp section ssharp section s S ssharp section s S ssharp section
 keycode  46 = l L numbersign L lstroke Lstroke lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
-keycode  45 = k K dollar K kra ampersand kra ampersand k K kra ampersand k K kra ampersand
+keycode  45 = k K minus K kra ampersand kra ampersand k K kra ampersand k K kra ampersand
 keycode  47 = semicolon colon Tab colon dead_acute dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
 
 !
@@ -63,3 +63,6 @@ add control = Control_L Control_R
 keycode  65 = space apostrophe quotedbl quotedbl space space
 keycode  64 = Alt_L percent Alt_L grave Alt_L Meta_L Alt_L Meta_L
 keycode  108 = Alt_L grave ISO_Level3_Shift NoSymbol ISO_Level3_Shift ISO_Level3_Shift
+
+! move slash somewhere a little more convenient to type
+keycode  61 = asciitilde question
