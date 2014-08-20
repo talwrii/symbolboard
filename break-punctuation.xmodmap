@@ -4,6 +4,9 @@
 ! backspace
 keycode 22 =
 
+! Return
+keycode 36 =
+
 !!!!!!!!!!!!!!!!!!
 ! arrow keys
 
