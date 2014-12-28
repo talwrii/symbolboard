@@ -11,16 +11,16 @@ keycode 36 =
 ! arrow keys
 
 ! Up
-! keycode 111 = 
+keycode 111 = 
 
 ! Down
-! keycode 116 = 
+keycode 116 = 
 
 ! Left
-! keycode 113 = 
+keycode 113 = 
 
 ! Right 
-! keycode 114 = 
+keycode 114 = 
 
 
 
