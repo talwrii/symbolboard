@@ -7,23 +7,26 @@ clear mod5
 
 ! Capslock modifier
 keycode 66 = Mode_switch plus parenleft period bracketleft
-keycode 48 = Mode_switch period parenright period bracketright
+keycode 48 = Mode_switch NoSymbol parenright period bracketright
 add mod3 = Mode_switch
 
-! Tab modifier
+! Tab modifier - pick some random name, hyper is the obvious 
+! choice but emacs uses this as a modifer as it appears does firefox
+! I can't seem to find a good "user defined keybinding",
+! I'm sorry if you come from Japan....
 clear mod5
-keycode 23 = Hyper_L
-keycode 34 = Hyper_L
-add mod5 = Hyper_L
+keycode 23 = Hankaku
+keycode 34 = Hankaku
+add mod5 = Hankaku
 
 clear mod4
 add mod4 = Super_L
 
 ! emacs/bash type bindings
-keycode  44 = j J Return J Down dead_horn dead_hook
+keycode  44 = j J Return J Menu dead_horn dead_hook
 keycode  43 = h H BackSpace H Left Hstroke hstroke Hstroke
 keycode  45 = k K minus K Up Up kra ampersand k K kra ampersand k K kra ampersand
-keycode  46 = l L numbersign L Right Lstroke lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
+keycode  46 = l L numbersign L Caps_Lock Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
 ! güd gÜd 
 keycode  40 = d D Delete D eth ETH eth ETH
 keycode  26 = e E End E e E e E
@@ -39,7 +42,7 @@ keycode  33 = p P Right P dead_acute THORN thorn THORN p P thorn THORN
 ! Numbers
 keycode  52 = z Z asciicircum Z 1 less guillemotleft less z Z guillemotleft less z Z guillemotleft less
 keycode  53 = x X percent X 2 greater guillemotright greater x X guillemotright greater x X guillemotright greater
-keycode  54 = c C Menu C 3 copyright cent
+keycode  54 = c C plus C 3 copyright cent
 keycode  55 = v V dollar  V 4 leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
 keycode  56 = b B grave B 5 rightsinglequotemark rightdoublequotemark
 keycode  57 = n N ampersand N 6 N n N n N n N n N n N
@@ -55,12 +58,12 @@ keycode  27 = r R exclam R exclamdown paragraph registered r R paragraph registe
 keycode  28 = t T at T tslash Tslash tslash Tslash t T tslash Tslash
 keycode  29 = y Y asterisk Y leftarrow yen leftarrow yen y Y leftarrow yen
 keycode  39 = s S slash S backslash section ssharp section s S ssharp section s S ssharp section
-keycode  47 = semicolon colon Tab colon dead_acute dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
+keycode  47 = semicolon colon Tab colon dead_tilde dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
 
 !! discover that modifiers can modify modifier keys
 keycode  41 = f F bar F dstroke ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine 
 ! Parentheses etc
-keycode  50 = Shift_L backslash braceleft NoSymbol Shift_L Shift_L
+keycode  50 = Shift_L Shift_L braceleft Shift_L Shift_L Shift_L
 keycode  62 = Shift_R period braceright NoSymbol Shift_R Shift_R
 
 ! this shadows on my keyboard (this could be a big problem for this approach)

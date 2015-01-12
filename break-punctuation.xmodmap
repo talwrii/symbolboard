@@ -23,4 +23,6 @@ keycode 113 =
 keycode 114 = 
 
 
+! Escape
+keycode 9 = Caps_Lock
 
