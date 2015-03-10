@@ -2,19 +2,19 @@
 
 The normal keyboard layout is good for typing text, this is what is designed for.
 Symbol characters and operation keys (like HOME, END etc) were an afterthought
-(they weren't used very much of type writers!) so have been distributed around
+(they weren't used very much of typewriters!) so have been distributed around
 the easy to press keys in a random fashion.
 
 Certain activities (like computer programming) make heavy use of symbols, and
-the mechanical difficult in pressing some symbol keys can be a programming
-when carrying out these activities. This can
+the mechanical difficult in pressing some symbol keys can be a problem.
+This can:
 
-1. Cause typos to be a made (which take time to be found and debugged)
-1. Bore and frustrate the person entering text
-1. Requite more contortions of the hands
-1. Making entering text slower
+1. Cause typos (which take time to be found and debugged)
+1. Bore and frustrate
+1. Require hand contortions
+1. Generally slow text entry
 
-It would therefore seem to make sense to make symbol characters easier to 
+It would, therefore, seem to make sense to make symbol characters easier to 
 press, but how to do this, there are only so any keys that can be close
 to one's fingers. One way to do this, is to add another modifier key
  (like shift) and use this for symbol characters.
