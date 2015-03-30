@@ -1,7 +1,8 @@
 ! Put the mode switch modifier on capslock and quote
-! More symbols (discover that I can have modifiers modify modifier keys :)) 
+! More symbols (discover that I can have modifiers modify modifier keys :))
 clear lock
 clear mod5
+
 
 ! Two modifier keys
 
@@ -10,7 +11,7 @@ keycode 66 = Mode_switch plus parenleft period bracketleft
 keycode 48 = Mode_switch NoSymbol parenright period bracketright
 add mod3 = Mode_switch
 
-! Tab modifier - pick some random name, hyper is the obvious 
+! Tab modifier - pick some random name, hyper is the obvious
 ! choice but emacs uses this as a modifer as it appears does firefox
 ! I can't seem to find a good "user defined keybinding",
 ! I'm sorry if you come from Japan....
