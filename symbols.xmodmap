@@ -7,8 +7,8 @@ clear mod5
 ! Two modifier keys
 
 ! Capslock modifier
-keycode 66 = Mode_switch plus parenleft period bracketleft
-keycode 48 = Mode_switch NoSymbol parenright period bracketright
+keycode 66 = Mode_switch Mode_switch parenleft period bracketleft
+keycode 48 = Mode_switch Mode_switch parenright period bracketright
 add mod3 = Mode_switch
 
 ! Tab modifier - pick some random name, hyper is the obvious
