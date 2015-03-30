@@ -52,8 +52,8 @@ keycode  59 = comma less bracketright less 8 multiply horizconnector multiply co
 keycode  60 = period greater braceleft greater 9 division periodcentered division period greater periodcentered division period greater periodcentered division
 keycode  61 = asciitilde question braceright period 0 dead_abovedot dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot
 
-! Other symbols 
-keycode  24 = q Q equal Q at Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
+! Other symbols
+keycode  24 = q Q equal Q questiondown Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
 keycode  25 = w W underscore W lstroke Lstroke lstroke Lstroke w W lstroke Lstroke
 keycode  27 = r R exclam R exclamdown paragraph registered r R paragraph registered
 keycode  28 = t T at T tslash Tslash tslash Tslash t T tslash Tslash
