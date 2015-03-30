@@ -34,11 +34,11 @@ keycode  26 = e E End E e E e E
 keycode  38 = a A Home A ae AE ae AE
 keycode  42 = g G Escape G eng ENG eng ENG
 
-! Vi-like motion bindings 
-keycode  30 = u U Left dead_grave dead_grave uparrow downarrow uparrow u U downarrow uparrow
-keycode  31 = i I Up I dead_diaeresis idotless rightarrow
-keycode  32 = o O Down O dead_cedilla Oslash oslash Oslash o O oslash Oslash
-keycode  33 = p P Right P dead_acute THORN thorn THORN p P thorn THORN
+! Vi-like motion bindings
+keycode  30 = u U Left Left dead_grave uparrow downarrow uparrow u U downarrow uparrow
+keycode  31 = i I Up Up dead_diaeresis idotless rightarrow
+keycode  32 = o O Down Down dead_cedilla Oslash oslash Oslash o O oslash Oslash
+keycode  33 = p P Right Right dead_acute THORN thorn THORN p P thorn THORN
 
 ! Numbers
 keycode  52 = z Z asciicircum Z 1 less guillemotleft less z Z guillemotleft less z Z guillemotleft less
