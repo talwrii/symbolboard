@@ -24,7 +24,7 @@ clear mod4
 add mod4 = Super_L
 
 ! emacs/bash type bindings
-keycode  44 = j J Return J Menu dead_horn dead_hook
+keycode  44 = j J Return j Menu dead_horn dead_hook
 keycode  43 = h H BackSpace H Left Hstroke hstroke Hstroke
 keycode  45 = k K minus K Up Up kra ampersand k K kra ampersand k K kra ampersand
 keycode  46 = l L numbersign L Caps_Lock Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
