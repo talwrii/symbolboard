@@ -1,0 +1,4 @@
+#!/bin/bash
+top=$(dirname $(readlink -f $0))/..
+xmodmap $top/symbols.xmodmap
+xmodmap $top/break-punctuation.xmodmap
