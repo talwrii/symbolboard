@@ -62,14 +62,14 @@ keycode  39 = s S slash S backslash section ssharp section s S ssharp section s 
 keycode  47 = semicolon colon Tab colon dead_tilde dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
 
 !! discover that modifiers can modify modifier keys
-keycode  41 = f F bar F dstroke ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine 
+keycode  41 = f F bar F dstroke ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine
 ! Parentheses etc
 keycode  50 = Shift_L Shift_L braceleft Shift_L Shift_L Shift_L
 keycode  62 = Shift_R period braceright NoSymbol Shift_R Shift_R
 
 ! this shadows on my keyboard (this could be a big problem for this approach)
 !keycode  23 = Control_L quotedbl bracketleft ISO_Left_Tab
-!keycode  34 = Control_R ampersand bracketright asciitilde dead_grave dead_breve dead_grave 
+!keycode  34 = Control_R ampersand bracketright asciitilde dead_grave dead_breve dead_grave
 
 
 ! Rebind the control key
