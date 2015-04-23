@@ -29,10 +29,10 @@ keycode  43 = h H BackSpace H Left Hstroke hstroke Hstroke
 keycode  45 = k K minus K Up Up kra ampersand k K kra ampersand k K kra ampersand
 keycode  46 = l L numbersign L Caps_Lock Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
 ! güd gÜd 
-keycode  40 = d D Delete D eth ETH eth ETH
+keycode  40 = d D Delete D dead_currency ETH eth ETH
 keycode  26 = e E End E e E e E
 keycode  38 = a A Home A ae AE ae AE
-keycode  42 = g G Escape G eng ENG eng ENG
+keycode  42 = g G Escape G dead_greek ENG eng ENG
 
 ! Vi-like motion bindings
 keycode  30 = u U Left Left dead_grave uparrow downarrow uparrow u U downarrow uparrow
