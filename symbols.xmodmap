@@ -28,7 +28,7 @@ keycode  44 = j J Return j Menu dead_horn dead_hook
 keycode  43 = h H BackSpace H Left Hstroke hstroke Hstroke
 keycode  45 = k K minus K Multi_key Up kra ampersand k K kra ampersand k K kra ampersand
 keycode  46 = l L numbersign L Caps_Lock Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
-! güd gÜd 
+
 keycode  40 = d D Delete D dead_currency ETH eth ETH
 keycode  26 = e E End E e E e E
 keycode  38 = a A Home A ae AE ae AE
