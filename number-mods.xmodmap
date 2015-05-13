@@ -13,20 +13,29 @@
 !    certainly aren't easy to press 
 keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 keycode 17 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
+clear mod1
+add mod1 = Alt_L
 
 ! The same deal with windows
 keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L
 keycode 18 = Super_L Super_L Super_L Super_L Super_L Super_L
+clear mod4
+add mod4 = Super_L
 
 ! Put other modifiers nearby for combined bindings
 !   I myself really touch type number (and 
 !   I don't believe you can). However 2389 are reliabe
 !   and we can perform shortcuts with one of those keys
 !   and another nearby key without trouble  
-keycode 10 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
-keycode 19 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
+keycode 10 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+keycode 19 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+clear mod3
+add mod3 = Mode_switch
 
-keycode 13 = Control_L Control_L Control_L Control_L Control_L Control_L
-keycode 16 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 13 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
+keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
+clear shift
+add shift = Shift_L  Shift_R
+
 
 
