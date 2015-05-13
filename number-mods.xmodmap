@@ -1,0 +1,32 @@
+! Somewhat questionable moving of modifiers onto 
+! number keys
+
+
+! This didn't work as well as I had liked because of 
+! shadowing breaking combined modifiers
+!  Ctrl-Alt works quite well though
+!  as do single modifiers
+
+
+! push alt onto the number keys (perhaps bit bold)
+!    I basically can't find alt and windows keys on most keyboards and they 
+!    certainly aren't easy to press 
+keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
+keycode 17 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
+
+! The same deal with windows
+keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L
+keycode 18 = Super_L Super_L Super_L Super_L Super_L Super_L
+
+! Put other modifiers nearby for combined bindings
+!   I myself really touch type number (and 
+!   I don't believe you can). However 2389 are reliabe
+!   and we can perform shortcuts with one of those keys
+!   and another nearby key without trouble  
+keycode 10 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
+keycode 19 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
+
+keycode 13 = Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 16 = Control_R Control_R Control_R Control_R Control_R Control_R
+
+
