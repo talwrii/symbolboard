@@ -1,12 +1,11 @@
 ! Somewhat questionable moving of modifiers onto 
 ! number keys
 
-
-! This didn't work as well as I had liked because of 
-! shadowing breaking combined modifiers
-!  Ctrl-Alt works quite well though
-!  as do single modifiers
-
+! i. The only really touch-typable keys are the 23 and 89 keys
+! ii. We have to mirror modifiers because
+! iii. The other numbers are kind of touchable typable by rehoming 
+!     the hands 
+! iv.  We have mapped them for combined modifiers
 
 ! push alt onto the number keys (perhaps bit bold)
 !    I basically can't find alt and windows keys on most keyboards and they 
