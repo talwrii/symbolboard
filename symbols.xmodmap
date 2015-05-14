@@ -29,10 +29,7 @@ keycode  43 = h H BackSpace H Left Hstroke hstroke Hstroke
 keycode  45 = k K minus K Multi_key Up kra ampersand k K kra ampersand k K kra ampersand
 keycode  46 = l L numbersign L Caps_Lock Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
 
-keycode  40 = d D Delete D dead_currency ETH eth ETH
-keycode  26 = e E End E e E e E
-keycode  38 = a A Home A ae AE ae AE
-keycode  42 = g G Escape G dead_greek ENG eng ENG
+
 
 ! Vi-like motion bindings
 keycode  30 = u U Left Left dead_grave uparrow downarrow uparrow u U downarrow uparrow
@@ -53,16 +50,23 @@ keycode  60 = period greater braceleft greater 9 division periodcentered divisio
 keycode  61 = asciitilde question braceright period 0 dead_abovedot dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot
 
 ! Other symbols
-keycode  24 = q Q equal Q questiondown Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
-keycode  25 = w W underscore W lstroke Lstroke lstroke Lstroke w W lstroke Lstroke
-keycode  27 = r R exclam R exclamdown paragraph registered r R paragraph registered
-keycode  28 = t T at T tslash Tslash tslash Tslash t T tslash Tslash
-keycode  29 = y Y asterisk Y leftarrow yen leftarrow yen y Y leftarrow yen
-keycode  39 = s S slash S backslash section ssharp section s S ssharp section s S ssharp section
+keycode  24 = q Q equal Q 6 Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
+keycode  25 = w W underscore W 7 Lstroke lstroke Lstroke w W lstroke Lstroke
+keycode  26 = e E End E 8 E e E
+keycode  27 = r R exclam R 9 paragraph registered r R paragraph registered
+keycode  28 = t T at T 0 Tslash tslash Tslash t T tslash Tslash
+keycode  29 = y Y asterisk Y 0 yen leftarrow yen y Y leftarrow yen
+
+keycode  38 = a A Home A 1 AE ae AE
+keycode  39 = s S slash S 2 section ssharp section s S ssharp section s S ssharp section
+keycode  40 = d D Delete D 3 ETH eth ETH
+keycode  41 = f F bar F 4 ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine
+keycode  42 = g G Escape G 5 ENG eng ENG
+
+
 keycode  47 = semicolon colon Tab colon dead_tilde dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
 
 !! discover that modifiers can modify modifier keys
-keycode  41 = f F bar F dstroke ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine
 ! Parentheses etc
 keycode  50 = Shift_L Shift_L braceleft Shift_L Shift_L Shift_L
 keycode  62 = Shift_R period braceright NoSymbol Shift_R Shift_R
