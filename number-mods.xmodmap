@@ -1,15 +1,15 @@
-! Somewhat questionable moving of modifiers onto 
+! Somewhat questionable moving of modifiers onto
 ! number keys
 
 ! i. The only really touch-typable keys are the 23 and 89 keys
 ! ii. We have to mirror modifiers because
-! iii. The other numbers are kind of touchable typable by rehoming 
-!     the hands 
+! iii. The other numbers are kind of touchable typable by rehoming
+!     the hands
 ! iv.  We have mapped them for combined modifiers
 
 ! push alt onto the number keys (perhaps bit bold)
-!    I basically can't find alt and windows keys on most keyboards and they 
-!    certainly aren't easy to press 
+!    I basically can't find alt and windows keys on most keyboards and they
+!    certainly aren't easy to press
 keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 keycode 17 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 clear mod1
@@ -22,10 +22,10 @@ clear mod4
 add mod4 = Super_L
 
 ! Put other modifiers nearby for combined bindings
-!   I myself really touch type number (and 
+!   I myself really touch type number (and
 !   I don't believe you can). However 2389 are reliabe
 !   and we can perform shortcuts with one of those keys
-!   and another nearby key without trouble  
+!   and another nearby key without trouble
 keycode 10 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 keycode 19 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 clear mod3
@@ -37,4 +37,7 @@ clear shift
 add shift = Shift_L  Shift_R
 
 
-
+keycode 14 = Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 15 = Control_R Control_R Control_R Control_R Control_R Control_R
+clear control
+add control = Control_L Control_R
