@@ -38,7 +38,7 @@ keycode  32 = o O Down Down dead_cedilla Oslash oslash Oslash o O oslash Oslash
 keycode  33 = p P Right Right dead_acute THORN thorn THORN p P thorn THORN
 
 ! Numbers
-keycode  52 = z Z asciicircum Z 1 less guillemotleft less z Z guillemotleft less z Z guillemotleft less
+keycode  52 = z Z asciicircum Z backslash less guillemotleft less z Z guillemotleft less z Z guillemotleft less
 keycode  53 = x X percent X 2 greater guillemotright greater x X guillemotright greater x X guillemotright greater
 keycode  54 = c C plus C 3 copyright cent
 keycode  55 = v V dollar  V 4 leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
