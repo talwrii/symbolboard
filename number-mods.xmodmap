@@ -10,16 +10,21 @@
 ! push alt onto the number keys (perhaps bit bold)
 !    I basically can't find alt and windows keys on most keyboards and they
 !    certainly aren't easy to press
+
+clear mod4
+clear control
+clear mod1
+clear mod3
+clear shift
+
+
 keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 keycode 17 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
-clear mod1
-add mod1 = Alt_L
+
 
 ! The same deal with windows
 keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L
 keycode 18 = Super_L Super_L Super_L Super_L Super_L Super_L
-clear mod4
-add mod4 = Super_L
 
 ! Put other modifiers nearby for combined bindings
 !   I myself really touch type number (and
@@ -28,16 +33,24 @@ add mod4 = Super_L
 !   and another nearby key without trouble
 keycode 10 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 keycode 19 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
-clear mod3
-add mod3 = Mode_switch
 
 keycode 13 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
 keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
-clear shift
-add shift = Shift_L  Shift_R
 
 
 keycode 14 = Control_L Control_L Control_L Control_L Control_L Control_L
 keycode 15 = Control_R Control_R Control_R Control_R Control_R Control_R
-clear control
+
+! Now that we've pushed modifiers onto the pressable number keys
+!   turn all difficult to press bottom row modifiers into contorl
+
+keycode 133 = Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 64 = Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 135 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
+
 add control = Control_L Control_R
+add mod1 = Alt_L
+add mod4 = Super_L
+add mod3 = Mode_switch
+add shift = Shift_L  Shift_R
