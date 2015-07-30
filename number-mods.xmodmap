@@ -46,6 +46,7 @@ keycode 15 = Control_R Control_R Control_R Control_R Control_R Control_R
 
 keycode 133 = Control_L Control_L Control_L Control_L Control_L Control_L
 keycode 64 = Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 134 = Control_R Control_R Control_R Control_R Control_R Control_R
 keycode 135 = Control_R Control_R Control_R Control_R Control_R Control_R
 keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
 
