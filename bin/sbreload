@@ -1,7 +1,7 @@
 #!/bin/bash
 
 here=$(dirname ${BASH_SOURCE[0]})
-top=$(dirname $(readlink -f $here)/..
+top=$(dirname $(readlink -f $here)/../..)
+setxkbmap gb
 xmodmap $top/symbols.xmodmap
-xmodmap $top/break-punctuation.xmodmap
 xmodmap $top/number-mods.xmodmap
