@@ -44,8 +44,8 @@ keycode  54 = c C plus C 3 copyright cent
 keycode  55 = v V dollar  V 4 leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
 keycode  56 = b B grave B 5 rightsinglequotemark rightdoublequotemark
 keycode  57 = n N ampersand N 6 N n N n N n N n N n N
-keycode  58 = m M bracketleft M 7 masculine mu masculine m M mu masculine m M mu masculine
-keycode  59 = comma less bracketright less 8 multiply horizconnector multiply comma less horizconnector multiply comma less horizconnector multiply
+keycode  58 = m M bracketleft M Page_Down masculine mu masculine m M mu masculine m M mu masculine
+keycode  59 = comma less bracketright less Page_Up multiply horizconnector multiply comma less horizconnector multiply comma less horizconnector multiply
 keycode  60 = period greater braceleft greater 9 division periodcentered division period greater periodcentered division period greater periodcentered division
 keycode  61 = asciitilde question braceright period 0 dead_abovedot dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot
 
