@@ -18,27 +18,33 @@ clear mod3
 clear shift
 
 
-keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
-keycode 17 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 
 
-! The same deal with windows
+!   I myself can't really touch type number (and
+!   I don't believe you can). However, I *can*
+!   reliable touc type 2389, and then use
+!   this key as anchor for simultaneously pressing
+!   nearby keys (this is useful for short cut 
+!    which tend to consist of a bunch of modifiers)
+
+! 1 and 9
+keycode 10 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L 
+keycode 19 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R   
+
+! Minus (this is more natural to type than 9)
+keycode 20 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R   
+
 keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L
 keycode 18 = Super_L Super_L Super_L Super_L Super_L Super_L
 
-! Put other modifiers nearby for combined bindings
-!   I myself really touch type number (and
-!   I don't believe you can). However 2389 are reliabe
-!   and we can perform shortcuts with one of those keys
-!   and another nearby key without trouble
-keycode 10 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
-keycode 19 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
+keycode 17 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 
 keycode 13 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
 keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
 
 
-keycode 14 = Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 14 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L 
 keycode 15 = Control_R Control_R Control_R Control_R Control_R Control_R
 
 ! Now that we've pushed modifiers onto the pressable number keys
