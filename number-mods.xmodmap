@@ -1,15 +1,24 @@
 ! Somewhat questionable moving of modifiers onto
 ! number keys
 
-! i. The only really touch-typable keys are the 23 and 89 keys
-! ii. We have to mirror modifiers because
-! iii. The other numbers are kind of touchable typable by rehoming
-!     the hands
-! iv.  We have mapped them for combined modifiers
+! # Forces
 
-! push alt onto the number keys (perhaps bit bold)
-!    I basically can't find alt and windows keys on most keyboards and they
-!    certainly aren't easy to press
+! 1. I find alt and windows keys effectively unpressable on most keyboards
+! 2. However some keys on the numbers row are touch-typable but not all of them. Namely 1235789 and -
+! 3. 238 and 9 are particular touch-typeable
+! 4. The more difficult to type keys 4 and 0, can be pressed in
+!    conjunction with other number row keys, when the first keypress is used as an anchor
+! 4. When typing your hands want to angle in, but keyboards tend to go straight down. This is exacerbated on small keyboards, and results in shift and control being slightly difficult to press.
+!. 5. This is partly dealt with on ergonomic keyboards. But ergonimic keyboards have several flaws: big, expensive, difficult to transport, not present on laptop or netbook computers, difficult to source quickly, often have ideosyncratic layouts that you learn to use
+! 6. Modifiers need to be mirrored
+
+! # Solution
+! 1. Put difficult to press modifiers onto number keys
+! 2. Put number keys onto the keybeyboard as modified letter keys
+! 3. Hackily put the symbol key onto the the "spare" 4 and 0 and use
+!    the simultaneous SHIFT-MOD to push even more symbols
+!    one the letter keys (specifically F keys)
+
 
 clear mod4
 clear control
