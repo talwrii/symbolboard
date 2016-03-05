@@ -27,19 +27,19 @@ add mod4 = Super_L
 keycode  44 = j J Return j Menu dead_horn dead_hook
 keycode  43 = h H BackSpace H Left Hstroke hstroke Hstroke
 keycode  45 = k K minus K Multi_key Up kra ampersand k K kra ampersand k K kra ampersand
-keycode  46 = l L numbersign L Caps_Lock Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
+keycode  46 = l L backslash Caps_Lock backslash Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
 
 ! Vi-like motion bindings
 keycode  30 = u U Left Left dead_grave uparrow downarrow uparrow u U downarrow uparrow
-keycode  31 = i I Up Up dead_diaeresis idotless rightarrow
-keycode  32 = o O Down Down dead_cedilla Oslash oslash Oslash o O oslash Oslash
+keycode  31 = i I Up Insert dead_diaeresis idotless rightarrow
+keycode  32 = o O Down Down dead_caron Oslash oslash Oslash o O oslash Oslash
 keycode  33 = p P Right Right dead_acute THORN thorn THORN p P thorn THORN
 
 ! Numbers
 keycode  52 = z Z asciicircum F11 backslash less guillemotleft less z Z guillemotleft less z Z guillemotleft less
 keycode  53 = x X percent F12 2 greater guillemotright greater x X guillemotright greater x X guillemotright greater
-keycode  54 = c C plus C 3 copyright cent
-keycode  55 = v V dollar  V 4 leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
+keycode  54 = c C plus C parenleft copyright cent
+keycode  55 = v V dollar  V parenright leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
 keycode  56 = b B grave B 5 rightsinglequotemark rightdoublequotemark
 keycode  57 = n N ampersand N 6 N n N n N n N n N n N
 keycode  58 = m M bracketleft M Page_Down masculine mu masculine m M mu masculine m M mu masculine
