@@ -12,9 +12,9 @@ keycode 48 = Mode_switch Mode_switch parenright period bracketright
 add mod3 = Mode_switch
 
 ! Tab modifier - pick some random name, hyper is the obvious
-! choice but emacs uses this as a modifer as it appears does firefox
-! I can't seem to find a good "user defined keybinding",
-! I'm sorry if you come from Japan....
+! choice, but emacs uses this as a modifer, as it appears does firefox.
+! I can't seem to find a good "user defined keybinding", so 
+! I shall use Hankaku - picked at random. I'm sorry if you come from Japan....
 clear mod5
 keycode 23 = Hankaku
 keycode 34 = Hankaku
@@ -29,8 +29,6 @@ keycode  43 = h H BackSpace H Left Hstroke hstroke Hstroke
 keycode  45 = k K minus K Multi_key Up kra ampersand k K kra ampersand k K kra ampersand
 keycode  46 = l L numbersign L Caps_Lock Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
 
-
-
 ! Vi-like motion bindings
 keycode  30 = u U Left Left dead_grave uparrow downarrow uparrow u U downarrow uparrow
 keycode  31 = i I Up Up dead_diaeresis idotless rightarrow
@@ -38,8 +36,8 @@ keycode  32 = o O Down Down dead_cedilla Oslash oslash Oslash o O oslash Oslash
 keycode  33 = p P Right Right dead_acute THORN thorn THORN p P thorn THORN
 
 ! Numbers
-keycode  52 = z Z asciicircum Z backslash less guillemotleft less z Z guillemotleft less z Z guillemotleft less
-keycode  53 = x X percent X 2 greater guillemotright greater x X guillemotright greater x X guillemotright greater
+keycode  52 = z Z asciicircum F11 backslash less guillemotleft less z Z guillemotleft less z Z guillemotleft less
+keycode  53 = x X percent F12 2 greater guillemotright greater x X guillemotright greater x X guillemotright greater
 keycode  54 = c C plus C 3 copyright cent
 keycode  55 = v V dollar  V 4 leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
 keycode  56 = b B grave B 5 rightsinglequotemark rightdoublequotemark
@@ -50,18 +48,18 @@ keycode  60 = period greater braceleft greater 9 division periodcentered divisio
 keycode  61 = asciitilde question braceright period 0 dead_abovedot dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot
 
 ! Other symbols
-keycode  24 = q Q equal Q 6 Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
-keycode  25 = w W underscore W 7 Lstroke lstroke Lstroke w W lstroke Lstroke
-keycode  26 = e E End E 8 E e E
-keycode  27 = r R exclam R 9 paragraph registered r R paragraph registered
-keycode  28 = t T at T 0 Tslash tslash Tslash t T tslash Tslash
+keycode  24 = q Q equal F6 6 Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
+keycode  25 = w W underscore F7 7 Lstroke lstroke Lstroke w W lstroke Lstroke
+keycode  26 = e E End F8 8 E e E
+keycode  27 = r R exclam F9 9 paragraph registered r R paragraph registered
+keycode  28 = t T at F10 0 Tslash tslash Tslash t T tslash Tslash
 keycode  29 = y Y asterisk Y 0 yen leftarrow yen y Y leftarrow yen
 
-keycode  38 = a A Home A 1 AE ae AE
-keycode  39 = s S slash S 2 section ssharp section s S ssharp section s S ssharp section
-keycode  40 = d D Delete D 3 ETH eth ETH
-keycode  41 = f F bar F 4 ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine
-keycode  42 = g G Escape G 5 ENG eng ENG
+keycode  38 = a A Home F1 1 AE ae AE
+keycode  39 = s S slash F2 2 section ssharp section s S ssharp section s S ssharp section
+keycode  40 = d D Delete F3 3 ETH eth ETH
+keycode  41 = f F bar F4 4 ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine
+keycode  42 = g G Escape F5 5 ENG eng ENG
 
 
 keycode  47 = semicolon colon Tab colon dead_tilde dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
@@ -71,7 +69,10 @@ keycode  47 = semicolon colon Tab colon dead_tilde dead_doubleacute dead_acute d
 keycode  50 = Shift_L Shift_L braceleft Shift_L Shift_L Shift_L
 keycode  62 = Shift_R period braceright NoSymbol Shift_R Shift_R
 
-! this shadows on my keyboard (this could be a big problem for this approach)
+! this shadows on my keyboard (this could be a big problem for the build-your-own-function-key project. If you need to buy a special keyboard
+! then much of this benefit might be obtainable from a nice ergnomic
+! keyboard. On the other hand, 6kro is more common than "perfect
+! ergonomic keyboard)
 !keycode  23 = Control_L quotedbl bracketleft ISO_Left_Tab
 !keycode  34 = Control_R ampersand bracketright asciitilde dead_grave dead_breve dead_grave
 
@@ -83,4 +84,3 @@ keycode  65 = space apostrophe quotedbl quotedbl space space
 keycode  64 = Alt_L period Alt_L grave Alt_L Meta_L Alt_L Meta_L
 keycode  108 = Alt_L period ISO_Level3_Shift NoSymbol ISO_Level3_Shift ISO_Level3_Shift
 
-! move slash somewhere a little more convenient to type
