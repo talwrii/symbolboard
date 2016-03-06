@@ -28,25 +28,25 @@ clear shift
 
 
 ! 1 and -
-keycode 10 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L 
-keycode 20 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R   
+keycode 10 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 20 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
 
 ! 0
 keycode 19 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 
 ! 2 and 9
 keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L
-keycode 18 = Super_L Super_L Super_L Super_L Super_L Super_L
+keycode 18 = Super_L Super_L Page_Up Super_L Super_L Super_L
 
 ! 3 and 8
 keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
-keycode 17 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
+keycode 17 = Alt_L Alt_L Page_Down Alt_L Alt_L Alt_L Alt_L
 
 ! 4
 keycode 13 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 
 ! 5 and 7
-keycode 14 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L 
+keycode 14 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
 keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
 
 ! 6
@@ -61,7 +61,7 @@ keycode 135 = Control_R Control_R Control_R Control_R Control_R Control_R
 keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
 
 ! Leave one alt key on something that isn't a number
-!    this is useful for control alt bindings on 
+!    this is useful for control alt bindings on
 !    keyboards that use a function key for f keys
 
 keycode 64 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
