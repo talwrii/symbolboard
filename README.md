@@ -62,9 +62,9 @@ it important to have mirrors modifiers.
 
 People learn and internalize very complicated sets of keybindings when using IDEs, this is not particularly different.
 
-### A person can only know one keyboard:
+### A person can only know one keyboard
 
-I have been able to use multiple keyboards on different machines at the same time without too many problems. Though this might be an issue if this is the *only* keyboard map you are using.
+I have been able to use multiple keyboard layout on different machines at the same time without too many problems. Though this might be an issue if this is the *only* keyboard map you are using.
 
 
 # Alternatives
