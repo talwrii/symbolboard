@@ -1,3 +1,6 @@
+!!! Switch off keys that have a more convenient binding using
+!!! a modifier key.
+
 ! carriage return
 ! keycode 36 =
 
@@ -11,17 +14,16 @@ keycode 36 =
 ! arrow keys
 
 ! Up
-keycode 111 = 
+keycode 111 =
 
 ! Down
-keycode 116 = 
+keycode 116 =
 
 ! Left
-keycode 113 = 
+keycode 113 =
 
-! Right 
-keycode 114 = 
-
+! Right
+keycode 114 =
 
 ! Escape
-keycode 9 = 
+keycode 9 =

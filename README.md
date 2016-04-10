@@ -2,10 +2,10 @@
 
 1. This only works with linux and X windows
 1. This keyboard layout is not fixed and subject to change, though hopefully not radical change
-1. I've had linux machines occasionally forget my keybindings.
+1. I've had linux machines occasionally forget my keybindings
 1. This might package might force you to restart X
-1. You should be prepared to do a little tinkering if you use this.
-1. See caveats
+1. You should be prepared to do a little tinkering if you use this
+1. See CAVEATS
 
 # Motivation
 
@@ -34,7 +34,7 @@ into symbol keys.
 
 # Quickstart
 
-1. Prepare a command to reset your keyboard like `setxkbmap gb` :)
+1. Prepare a command to reset your keyboard such as  `setxkbmap gb`
 1. `xmodmap symbols.xmodmap; xmodmap number-mods.xmodmap`
 1. Add this to your xprofile file or similar
 
