@@ -1,5 +1,6 @@
 # Warnings
 
+1. This only works with linux and X windows
 1. This keyboard layout is not fixed and subject to change, though hopefully not radical change
 1. I've had linux machines occasionally forget my keybindings.
 1. This might package might force you to restart X
@@ -34,12 +35,13 @@ into symbol keys.
 # Quickstart
 
 1. Prepare a command to reset your keyboard like `setxkbmap gb` :)
-1. `xmodmap symbols.xmodmap`
+1. `xmodmap symbols.xmodmap; xmodmap number-mods.xmodmap`
 1. Add this to your xprofile file or similar
 
 # Features
 
-* Motions and other keys (HOME, END, BASKSPACE, ENTER) are similar to bash and emacs bindings.
+* Two modifiers are added: a symbol modifier (on `CAPSLOCK` and `QUOTE`), and a number / diacritic / language modifier on (`TAB` and `[`)
+* Motions and other keys (HOME, END, BASKSPACE, ENTER) are similar to bash and emacs bindings (e.g `CAPSLOCK+J` is return, `CAPSLOCK+H` is backspace)
 * All modifiers are mirrors.
 * This layout works for both ISO and ANSI keyboard. Keys are not used if they different between the two keyboard.
 
