@@ -43,7 +43,8 @@ keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 keycode 17 = Alt_L Alt_L Page_Down Alt_L Alt_L Alt_L Alt_L
 
 ! 4
-keycode 13 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+! keycode 13 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+keycode 13 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
 
 ! 5 and 7
 keycode 14 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
