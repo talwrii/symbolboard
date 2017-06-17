@@ -55,11 +55,12 @@ keycode  27 = r R exclam F9 9 paragraph registered r R paragraph registered
 keycode  28 = t T at F10 0 Tslash tslash Tslash t T tslash Tslash
 keycode  29 = y Y asterisk Y dead_cedilla yen leftarrow yen y Y leftarrow yen
 
-keycode  38 = a A Home F1 1 AE ae AE
-keycode  39 = s S slash F2 2 section ssharp section s S ssharp section s S ssharp section
-keycode  40 = d D Delete F3 3 ETH eth ETH
-keycode  41 = f F bar F4 4 ordfeminine dstroke ordfeminine f F dstroke ordfeminine f F dstroke ordfeminine
-keycode  42 = g G Escape F5 5 ENG eng ENG
+keycode  38 = a A Home F1 1
+
+keycode  39 = s S slash F2 2 F2
+keycode  40 = d D Delete F3 3 F3
+keycode  41 = f F bar F4 4 F4
+keycode  42 = g G Escape F5 5 F5
 
 keycode  47 = semicolon colon Tab colon dead_tilde dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
 
