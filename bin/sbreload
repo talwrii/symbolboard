@@ -5,3 +5,4 @@ top=$(dirname $(readlink -f $here)/../..)
 setxkbmap gb
 xmodmap $top/symbols.xmodmap
 xmodmap $top/number-mods.xmodmap
+xmodmap $top/break-punctuation.xmodmap
