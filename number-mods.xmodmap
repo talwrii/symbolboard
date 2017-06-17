@@ -46,12 +46,21 @@ keycode 17 = Alt_L Alt_L Page_Down Alt_L Alt_L Alt_L Alt_L
 ! keycode 13 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 keycode 13 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
 
-! 5 and 7
-keycode 14 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
-keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
+! I want another modifier key. The obvious approach is to combine two modifiers key
+!   however xmodmap doesn't allow this. Instead pick a pair of keys together.
+! 5
+!keycode 14 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 14 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+
 
 ! 6
-keycode 15 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 15 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+!keycode 15 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
+
+
+!  7
+keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
+
 
 ! Now that we've pushed modifiers onto the pressable number keys
 !   turn all difficult to press bottom row modifiers into contorl
@@ -71,4 +80,4 @@ add control = Control_L Control_R
 add mod1 = Alt_L
 add mod4 = Super_L
 add mod3 = Mode_switch
-add shift = Shift_L  Shift_R
+add shift = Shift_L Shift_R
