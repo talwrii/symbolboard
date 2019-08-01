@@ -8,13 +8,13 @@
 keycode 22 =
 
 ! Return
-keycode 36 =
+keycode 36 = Insert
 
 !!!!!!!!!!!!!!!!!!
 ! arrow keys
 
 ! Up
-keycode 111 =
+!keycode 111 =
 
 ! Down
 keycode 116 =
@@ -37,3 +37,6 @@ keycode 105 =
 ! shift keys (hardcore)
 keycode 50 =
 keycode 62 =
+
+!capslock key - continue to reduce pinky stretch load
+keycode 66 =
