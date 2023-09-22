@@ -3,7 +3,6 @@
 clear lock
 clear mod5
 
-
 ! Two modifier keys
 
 ! Capslock modifier
@@ -24,9 +23,11 @@ clear mod4
 add mod4 = Super_L
 
 ! emacs/bash type bindings
-keycode  44 = j J Return Page_Down dead_ogonek dead_horn dead_hook
+
+!keycode  44 = j J Return Return  dead_horn dead_hook
+keycode  44 = j J Return Return period Return dead_hook
 keycode  43 = h H BackSpace Home dead_belowcomma Hstroke hstroke Hstroke
-keycode  45 = k K minus Page_Up Multi_key Up kra ampersand k K kra ampersand k K kra ampersand
+keycode  45 = k K minus Page_Up comma Up kra ampersand k K kra ampersand k K kra ampersand
 keycode  46 = l L backslash End Menu Caps_Lock lstroke Lstroke l L lstroke Lstroke l L lstroke Lstroke
 
 ! Vi-like motion bindings
@@ -42,10 +43,10 @@ keycode  54 = c C parenleft C plus copyright cent
 keycode  55 = v V parenright  V dollar leftsinglequotemark leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark v V leftdoublequotemark leftsinglequotemark
 keycode  56 = b B grave Break  ssharp rightdoublequotemark
 keycode  57 = n N ampersand N numbersign N n N n N n N n N n N
-keycode  58 = m M bracketleft Menu singlelowquotemark masculine mu masculine m M mu masculine m M mu masculine
-keycode  59 = comma less bracketright parenright parenright multiply horizconnector multiply comma less horizconnector multiply comma less horizconnector multiply
-keycode  60 = period greater braceleft greater exclamdown division periodcentered division period greater periodcentered division period greater periodcentered division
-keycode  61 = asciitilde question braceright period questiondown dead_abovedot dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot
+keycode  58 = m M m Menu bracketleft masculine mu masculine m M mu masculine m M mu masculine
+keycode  59 = comma less comma parenright bracketright multiply horizconnector multiply comma less horizconnector multiply comma less horizconnector multiply
+keycode  60 = period greater exclamdown greater braceleft division periodcentered division period greater periodcentered division period greater periodcentered division
+keycode  61 = asciitilde question questiondown period braceright dead_abovedot dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot slash question dead_belowdot dead_abovedot
 
 ! Other symbols
 keycode  24 = q Q equal F6 6 Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
@@ -62,7 +63,7 @@ keycode  40 = d D Delete F3 3 F3
 keycode  41 = f F bar F4 4 F4
 keycode  42 = g G Escape F5 5 F5
 
-keycode  47 = semicolon colon Tab colon dead_tilde dead_doubleacute dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
+keycode  47 = semicolon colon Tab Tab Insert Insert dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute semicolon colon dead_acute dead_doubleacute
 
 !! discover that modifiers can modify modifier keys
 ! Parentheses etc

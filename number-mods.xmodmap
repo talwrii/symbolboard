@@ -34,12 +34,13 @@ keycode 19 = Control_R Control_R Control_R Control_R Control_R Control_R Control
 
 
 ! 2 and 9
-keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L
-keycode 18 = Super_L Super_L Page_Up Super_L Super_L Super_L
+keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L Super_L Super_L
+keycode 18 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
 
-! 3 and 8
+
+! 3
 keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
-keycode 17 = Alt_L Alt_L Page_Down Alt_L Alt_L Alt_L Alt_L
+
 
 ! 4 and 7
 ! keycode 13 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
@@ -49,6 +50,17 @@ keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
 !  5 and 6
 keycode 14 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 keycode 15 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
+
+
+
+! 8
+keycode 17 = Alt_L Alt_L Page_Down Alt_L Alt_L Alt_L Alt_L
+
+
+! 0
+keycode 19 = Hankaku  Hankaku  Hankaku  Hankaku  Hankaku  Hankaku  Hankaku  Hankaku
+! -
+keycode 20 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
 
 
 
@@ -73,8 +85,23 @@ keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
 
 keycode 64 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 
+
+! I have come across a keyboard that puts non-standard keys next to 0
+! My general policy is to stop using such keys in these circumstances
+! but I'm too lazy for now.... The key we have instead is 51 (make this control)
+
+keycode 51 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
+
+clear mod4
+clear control
+clear mod1
+clear mod3
+clear shift
+clear mod5
+
 add control = Control_L Control_R
 add mod1 = Alt_L
 add mod4 = Super_L
 add mod3 = Mode_switch
+add mod5 = Hankaku
 add shift = Shift_L Shift_R
