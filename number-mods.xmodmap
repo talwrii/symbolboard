@@ -27,12 +27,11 @@ clear mod3
 clear shift
 
 
-! 1 and -
+! 1 and 0 and (
 keycode 10 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
 keycode 20 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 19 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
 
-! 0
-keycode 19 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 
 ! 2 and 9
 keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L
@@ -42,31 +41,29 @@ keycode 18 = Super_L Super_L Page_Up Super_L Super_L Super_L
 keycode 12 = Alt_L Alt_L Alt_L Alt_L Alt_L Alt_L
 keycode 17 = Alt_L Alt_L Page_Down Alt_L Alt_L Alt_L Alt_L
 
-! 4
+! 4 and 7
 ! keycode 13 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
 keycode 13 = Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L Shift_L
+keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
 
-! I want another modifier key. The obvious approach is to combine two modifiers key
-!   however xmodmap doesn't allow this. Instead pick a pair of keys together.
-! 5
-!keycode 14 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
+!  5 and 6
 keycode 14 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
-
-
-! 6
 keycode 15 = Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch Mode_switch
-!keycode 15 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
 
-
-!  7
-keycode 16 = Shift_R Shift_R Shift_R Shift_R Shift_R Shift_R
 
 
 ! Now that we've pushed modifiers onto the pressable number keys
 !   turn all difficult to press bottom row modifiers into contorl
 
-keycode 133 = Control_L Control_L Control_L Control_L Control_L Control_L
-keycode 134 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 133 = Control_L Control_L Control_L Control_L Control_L Control_L Control_L Control_L
+keycode 134 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 135 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 135 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 134 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 135 = Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
 keycode 135 = Control_R Control_R Control_R Control_R Control_R Control_R
 keycode 108 = Control_R Control_R Control_R Control_R Control_R Control_R
 
