@@ -35,7 +35,7 @@ keycode 19 = Control_R Control_R Control_R Control_R Control_R Control_R Control
 
 ! 2 and 9
 keycode 11 = Super_L Super_L Super_L Super_L Super_L Super_L Super_L Super_L
-keycode 18 = Control_R Control_R Control_R Control_R Control_R Control_R Control_R Control_R
+keycode 18 = Super_R Super_R Super_R Super_R Super_R Super_R Super_R Super_R
 
 
 ! 3
