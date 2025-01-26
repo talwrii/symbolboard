@@ -1,14 +1,20 @@
-# Warnings
 
-1. This only works with linux and X windows
+# Symbolboard
+@readwithai - [X](https://x.com/reawithai) - [blog](https://readwithai.substack.com)
+
+An ergonomic keyboard layout for X11 using a subset of keys which is consistent across most keyboards (including laptops) implemented with xmodmap.
+
+[Symbolboard2
+](https://github.com/talwrii/symbolboard2) is a very similar layout for xkb. Some applications such as Google Chrome and Obsidian do not work with the xmodmap version. [Symbolboard mac](https://github.com/talwrii/symbolboard-mac) is a similar layout for Apple Macs based on [Karabiner](https://karabiner-elements.pqrs.org/).
+
+
+# Warnings
+1. This only works with Linux and X windows
 1. This keyboard layout is not fixed and subject to change, though hopefully not radical change
-1. I've had linux machines occasionally forget my keybindings
-1. This might package might force you to restart X
+1. I've had Linux machines occasionally forget my keybindings
 1. You should be prepared to do a little tinkering if you use this
-1. See CAVEATS
 
 # Motivation
-
 The normal keyboard layout is good for typing text: this is what is designed for.
 Symbol characters and operation keys (like HOME, END etc) were an afterthought
 (since they weren't used very much on typewriters! ) and so have been distributed
@@ -59,14 +65,17 @@ it important to have mirrors modifiers.
 # Justifications
 
 ### But this is impossible to learn
-
 People learn and internalize very complicated sets of keybindings when using IDEs, this is not particularly different.
 
 ### A person can only know one keyboard
-
 I have been able to use multiple keyboard layout on different machines at the same time without too many problems. Though this might be an issue if this is the *only* keyboard map you are using.
 
-
 # Alternatives
-
 * Buy a snazzy keyboard with mirrors modifiers and weird key positions. Whether this is a good idea depends on time, money, and your use of laptops.
+* Homerow Mods
+
+# About me 
+I am [@readwithai](https://x.com/readwithai). I make tools for productivity and agency particularly related to deep reading and using Obsidian. If this sounds interesting you can follow me on [X](https://x.com/readwithai) or [substack](https://readwithai.substack.com). 
+
+If you find *this* piece of software useful you could consider paying me 5 dollars on my [ko-fi](https://ko-fi.com/readwithai).
+
