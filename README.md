@@ -75,7 +75,7 @@ I have been able to use multiple keyboard layout on different machines at the sa
 * Homerow Mods
 
 # About me 
-I am [@readwithai](https://x.com/readwithai). I make tools for productivity and agency particularly related to deep reading and using Obsidian. If this sounds interesting you can follow me on [X](https://x.com/readwithai) or [substack](https://readwithai.substack.com). 
+I am [@readwithai](https://x.com/readwithai). I make tools for [productivity](https://readwithai.substack.com/p/obsidian-plugin-repl) and agency particularly related to deep reading and using [Obsidian](https://readwithai.substack.com/p/what-exactly-is-obsidian). If this sounds interesting you can follow me on [X](https://x.com/readwithai) or [substack](https://readwithai.substack.com). 
 
 If you find *this* piece of software useful you could consider paying me 5 dollars on my [ko-fi](https://ko-fi.com/readwithai).
 
